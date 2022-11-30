@@ -1,0 +1,45 @@
+:root{
+    --primary-text-color: #212121;
+    --second-text-color: #757575;
+    --white-color: #FFFFFF;
+    --acent-color: #2196F3;
+    --logo-color: #000000;
+    --bgc-color: #F5F4FA
+
+:
+}
+
+/* Один із цветов логотипа #000000 */
+
+/* Цвет основного текста #212121  */
+
+/* Цвет вторичногоо текста  #757575 */
+
+/* Цвет акцентированого текста #2196F3   */
+
+/* Белий текст  #FFFFFF */
+
+/* Акцентируваний фон #2196F3  */
+
+/* Основной фон #F5F4FA */
+
+.section-button-list{
+ color: var(--primary-text-color);
+ background-color:var(--bgc-color);
+}
+
+.section-button-list:hover,
+.section-button-list:focus{
+    color: var(--white-color);
+ background-color:var(--acent-color);
+}
+
+.image-title{
+    color: var(--primary-text-color);
+}
+.image-text{
+    color:var(--second-text-color)
+}
+.section-title{
+    color: #FFFFFF;
+}

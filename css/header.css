@@ -1,0 +1,60 @@
+/* Один із цветов логотипа #000000 */
+
+/* Цвет основного текста #212121  */
+
+/* Цвет вторичногоо текста  #757575 */
+
+/* Цвет акцентированого текста #2196F3   */
+
+/* Белий текст  #FFFFFF */
+
+/* Акцентируваний фон #2196F3  */
+
+/* Основной фон #F5F4FA */
+
+:root{
+    --first-color #212121
+}
+
+.page {
+    color: #212121;
+    background-color: #FFFFFF;
+}
+
+.list,
+ul {
+    list-style: none;
+}
+.logo{
+    color:  #2196F3;
+}
+
+.logo2{
+    color:#000000;
+}
+
+
+/* site nav */
+
+.site-nav .link{
+    color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: #2196F3;
+}
+
+.site-nav .active{
+    color: #2196F3
+}
+
+/* kontakt list */
+
+.kontakt-list .link{
+    color: #757575;
+}
+
+.kontakt-list .link:hover,
+.kontakt-list .link:focus{
+    color: #2196F3;
+}
