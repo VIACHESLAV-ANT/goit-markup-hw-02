@@ -23,6 +23,8 @@
 
 /* Основной фон #F5F4FA */
 
+/* Button */
+
 .section-button-list{
  color: var(--primary-text-color);
  background-color:var(--bgc-color);
@@ -42,4 +44,14 @@
 }
 .section-title{
     color: #FFFFFF;
+}
+
+/* Portfolio */
+
+.section-image-title{
+    color: var(--primary-text-color);
+}
+
+.section-image-text{
+    color: var(--second-text-color);
 }

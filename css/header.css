@@ -1,3 +1,14 @@
+:root{
+--primary-text-color: #212121;
+    --second-text-color: #757575;
+    --white-color: #FFFFFF;
+    --acent-color: #2196F3;
+    --logo-color: #000000;
+    --bgc-color: #F5F4FA;
+    --bgc-footer-color: #2F303A
+
+}
+
 /* Один із цветов логотипа #000000 */
 
 /* Цвет основного текста #212121  */
@@ -12,13 +23,12 @@
 
 /* Основной фон #F5F4FA */
 
-:root{
-    --first-color #212121
-}
+
+/* Header */
 
 .page {
-    color: #212121;
-    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+    background-color: var(--white-color);
 }
 
 .list,
@@ -26,35 +36,48 @@ ul {
     list-style: none;
 }
 .logo{
-    color:  #2196F3;
+    color:  var(--acent-color);
 }
 
 .logo2{
-    color:#000000;
+    color: var(--logo-color);
 }
 
 
 /* site nav */
 
 .site-nav .link{
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
-    color: #2196F3;
+    color: var(--acent-color);
 }
 
 .site-nav .active{
-    color: #2196F3
+    color: var(--acent-color);
 }
 
 /* kontakt list */
 
 .kontakt-list .link{
-    color: #757575;
+    color: var(--second-text-color);
 }
 
 .kontakt-list .link:hover,
 .kontakt-list .link:focus{
-    color: #2196F3;
+    color: var(--acent-color);
 }
+
+.kontakt-list .adres{
+    color: var(--white-color);
+}
+
+footer{
+    background-color: var(--bgc-footer-color);
+}
+.logo3{
+    color: var(--white-color);
+}
+
+
