@@ -29,6 +29,7 @@
 .page {
     color: var(--primary-text-color);
     background-color: var(--white-color);
+    font-family: Roboto;
 }
 
 .list,
@@ -37,6 +38,13 @@ ul {
 }
 .logo{
     color:  var(--acent-color);
+Font style: 500;
+Font size: 26px;
+Line height: 31px;
+Line height: 100%;
+Align: Left;
+Vertical align: Top;
+Letter spacing: 3%;
 }
 
 .logo2{
@@ -48,6 +56,13 @@ ul {
 
 .site-nav .link{
     color: var(--primary-text-color);
+    font-style: Regular;
+Font-size: 14px;
+Line-height: 16px;
+Line-height: 100%;
+Align: Left;
+Vertical-align: Top;
+Letter-spacing: 2%;
 }
 .site-nav .link:hover,
 .site-nav .link:focus{

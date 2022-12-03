@@ -1,0 +1,35 @@
+:root{
+    --primary-text-color: #212121;
+    --second-text-color: #757575;
+    --white-color: #FFFFFF;
+    --acent-color: #2196F3;
+    --logo-color: #000000;
+    --bgc-color: #F5F4FA;
+    --bgc-up-color: #2F303A;
+}
+
+body{
+    color: var(--primary-text-color);
+}
+
+.up{
+    background-color: var(--bgc-up-color);
+    color: var(--white-color);
+}
+
+.up-button{
+    color: var(--white-color);
+    background-color: var(--acent-color);
+}
+
+.peculiarities-title{
+    color: var(--white-color);
+}
+
+.peculiarities-list-tekst{
+color: var(--second-text-color);
+}
+
+.team-list-text{
+    color: var(--second-text-color);
+}
