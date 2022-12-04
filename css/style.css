@@ -1,0 +1,236 @@
+:root{
+--primary-text-color: #212121;
+    --second-text-color: #757575;
+    --white-color: #FFFFFF;
+    --acent-color: #2196F3;
+    --logo-color: #000000;
+    --bgc-color: #F5F4FA;
+    --bgc-footer-color: #2F303A;
+    --bgc-up-color: #2F303A;
+
+}
+/* Одиніз цветов логотипа #000000 */
+
+/* Цвет основного текста #212121  */
+
+/* Цвет вторичногоо текста  #757575 */
+
+/* Цвет акцентированого текста #2196F3   */
+
+/* Белий текст  #FFFFFF */
+
+/* Акцентируваний фон #2196F3  */
+
+/* Основной фон #F5F4FA */
+
+
+/* Header */
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--white-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    
+}
+
+.list{
+    list-style: none;
+    
+}
+.logo{
+    color:  var(--acent-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+
+.logo-black{
+    color: var(--logo-color);
+}
+
+
+/* site nav */
+
+.site-nav{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+}
+.site-nav-link:hover,
+.site-nav-link:focus{
+    color: var(--acent-color);
+}
+
+.active{
+    color: var(--acent-color);
+}
+
+/* kontakt list */
+
+.kontakt-list .link{
+    color: var(--second-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.kontakt-list .link:hover,
+.kontakt-list .link:focus{
+    color: var(--acent-color);
+}
+
+
+/* Footer */
+
+footer{
+    background-color: var(--bgc-footer-color);
+}
+.logo-white{
+    color: var(--white-color);
+}
+
+.kontakt-list .opis {
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.kontakt-list .adres{
+    color: var(--white-color);
+}
+
+/* Index */
+.hero{
+    background-color: var(--bgc-up-color);
+    color: var(--white-color);
+}
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+.hero-button{
+    color: var(--white-color);
+    background-color: var(--acent-color);
+    font-family: 'Roboto';
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
+
+.feature-title{
+    color: var(--white-color);
+}
+
+.feature-list-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+
+.feature-list-tekst{
+color: var(--second-text-color);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+}
+
+.work-title{
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+}
+
+
+.team-title{
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+}
+
+.team-list-title{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+}
+
+.team-list-text{
+    color: var(--second-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+} 
+
+
+/* Portfolio */
+
+.section-button-list{
+    color: var(--primary-text-color);
+    background-color:var(--bgc-color);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+   }
+   
+   .section-button-list:hover,
+   .section-button-list:focus{
+       color: var(--white-color);
+    background-color:var(--acent-color);
+   }
+   
+   .image-title{
+       color: var(--primary-text-color);
+   }
+   .image-text{
+       color:var(--second-text-color)
+   }
+   .section-title{
+       color: #FFFFFF;
+   }
+   
+   /* Portfolio */
+   
+   .section-image-title{
+       color: var(--primary-text-color);
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+   }
+   
+   .section-image-text{
+       color: var(--second-text-color);
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.88;
+   }
+   
+   .section-image-link{
+       text-decoration: none;
+   }
