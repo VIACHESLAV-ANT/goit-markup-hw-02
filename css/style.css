@@ -1,5 +1,5 @@
 :root{
---primary-text-color: #212121;
+    --primary-text-color: #212121;
     --second-text-color: #757575;
     --white-color: #FFFFFF;
     --acent-color: #2196F3;
@@ -7,7 +7,6 @@
     --bgc-color: #F5F4FA;
     --bgc-footer-color: #2F303A;
     --bgc-up-color: #2F303A;
-
 }
 /* Одиніз цветов логотипа #000000 */
 
@@ -23,9 +22,6 @@
 
 /* Основной фон #F5F4FA */
 
-
-/* Header */
-
 body {
     color: var(--primary-text-color);
     background-color: var(--white-color);
@@ -37,8 +33,12 @@ body {
 
 .list{
     list-style: none;
+    text-decoration: none;
     
 }
+
+/* Header */
+/* logo */
 .logo{
     color:  var(--acent-color);
     font-family: 'Raleway';
@@ -57,7 +57,7 @@ body {
 
 /* site nav */
 
-.site-nav{
+.navi-link{
     color: var(--primary-text-color);
     font-weight: 500;
     line-height: 1.14;
@@ -65,30 +65,24 @@ body {
     text-decoration: none;
 
 }
-.site-nav-link:hover,
-.site-nav-link:focus{
-    color: var(--acent-color);
-}
 
+
+.navi-link:hover,
+.navi-link:focus,
+.kontakt-link:hover,
+.kontakt-link:focus,
 .active{
     color: var(--acent-color);
 }
 
 /* kontakt list */
 
-.kontakt-list .link{
+.kontakt-link{
     color: var(--second-text-color);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
-
-.kontakt-list .link:hover,
-.kontakt-list .link:focus{
-    color: var(--acent-color);
-}
-
 
 /* Footer */
 
@@ -99,17 +93,30 @@ footer{
     color: var(--white-color);
 }
 
-.kontakt-list .opis {
+.opis {
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
-.kontakt-list .adres{
+.kontakt-footer{
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.adress{
     color: var(--white-color);
 }
 
+
+
 /* Index */
+
+
+
+/* hero */
 .hero{
     background-color: var(--bgc-up-color);
     color: var(--white-color);
@@ -134,103 +141,92 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 }
+/* section */
 
-.feature-title{
+.sections-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+/* feature */
+
+.invisible{
     color: var(--white-color);
 }
 
-.feature-list-title{
+.feature-title{
 font-weight: 700;
-font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
 }
 
-.feature-list-tekst{
+.feature-tekst{
 color: var(--second-text-color);
-font-weight: 400;
-font-size: 14px;
 line-height: 1.71;
 }
 
-.work-title{
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-}
-
+/* Team */
 
 .team-title{
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-}
-
-.team-list-title{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
+letter-spacing: 0.03em;
 }
 
-.team-list-text{
+.team-text{
     color: var(--second-text-color);
-font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
+letter-spacing: 0.03em;
 } 
+
+
+
+
 
 
 /* Portfolio */
 
-.section-button-list{
+
+
+
+
+.portfolio-button{
     color: var(--primary-text-color);
     background-color:var(--bgc-color);
+    cursor: pointer;
     font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
+    letter-spacing: 0.03em;
    }
    
-   .section-button-list:hover,
-   .section-button-list:focus{
+   .portfolio-button:hover,
+   .portfolio-button:focus{
        color: var(--white-color);
     background-color:var(--acent-color);
    }
    
-   .image-title{
-       color: var(--primary-text-color);
-   }
-   .image-text{
-       color:var(--second-text-color)
-   }
-   .section-title{
-       color: #FFFFFF;
-   }
-   
-   /* Portfolio */
-   
-   .section-image-title{
-       color: var(--primary-text-color);
+   .galery-title{
+    color: var(--primary-text-color);
    font-weight: 700;
    font-size: 18px;
    line-height: 2;
    letter-spacing: 0.06em;
    }
    
-   .section-image-text{
-       color: var(--second-text-color);
-   font-weight: 400;
+   .galery-text{
+    color: var(--second-text-color);
    font-size: 16px;
    line-height: 1.88;
-   }
-   
-   .section-image-link{
-       text-decoration: none;
+   letter-spacing: 0.03em;
    }
