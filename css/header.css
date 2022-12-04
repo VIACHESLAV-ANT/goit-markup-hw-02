@@ -29,7 +29,8 @@
 .page {
     color: var(--primary-text-color);
     background-color: var(--white-color);
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em
 }
 
 .list,
@@ -38,14 +39,12 @@ ul {
 }
 .logo{
     color:  var(--acent-color);
-Font style: 500;
-Font size: 26px;
-Line height: 31px;
-Line height: 100%;
-Align: Left;
-Vertical align: Top;
-Letter spacing: 3%;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
+
 
 .logo2{
     color: var(--logo-color);
@@ -56,13 +55,11 @@ Letter spacing: 3%;
 
 .site-nav .link{
     color: var(--primary-text-color);
-    font-style: Regular;
-Font-size: 14px;
-Line-height: 16px;
-Line-height: 100%;
-Align: Left;
-Vertical-align: Top;
-Letter-spacing: 2%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
@@ -77,6 +74,10 @@ Letter-spacing: 2%;
 
 .kontakt-list .link{
     color: var(--second-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .kontakt-list .link:hover,
@@ -84,9 +85,8 @@ Letter-spacing: 2%;
     color: var(--acent-color);
 }
 
-.kontakt-list .adres{
-    color: var(--white-color);
-}
+
+/* Footer */
 
 footer{
     background-color: var(--bgc-footer-color);
@@ -95,4 +95,12 @@ footer{
     color: var(--white-color);
 }
 
+.kontakt-list .opis {
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
 
+.kontakt-list .adres{
+    color: var(--white-color);
+}
