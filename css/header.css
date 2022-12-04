@@ -30,12 +30,14 @@
     color: var(--primary-text-color);
     background-color: var(--white-color);
     font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em
+    letter-spacing: 0.03em;
+    
 }
 
 .list,
 ul {
     list-style: none;
+    
 }
 .logo{
     color:  var(--acent-color);
@@ -43,6 +45,7 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 }
 
 
@@ -59,6 +62,7 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 
 }
 .site-nav .link:hover,
@@ -78,6 +82,7 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .kontakt-list .link:hover,

@@ -67,3 +67,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.88px;
 }
+
+.section-image-link{
+    text-decoration: none;
+}
